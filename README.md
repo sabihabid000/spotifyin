@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Your favourite music here</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png.png" alt="Spotify">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+
+    <div class="containcer">
+        <div class="songList">
+            <h1>Best of NCS - No Copyright Sounds</h1>
+            <div>
+                <div class="songItem">
+                    <img src="cover1.jpg" alt="1">
+                    <span>Let Me Love You</span>
+                    <span class="songlistplay"><span class="timestamp">05:34 <i class="fa-regular fa-play-circle"></i> </span></span>
+                </div>
+            </div>
+        </div>
+        <div class="songBanner"></div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" max="100">
+        <div class="icons">
+            <!-- fontawesome icons -->
+            <i class="fa-solid fa-3x fa-backward-step"></i>
+            <i class="fa-regular fa-3x fa-play-circle"></i>
+            <i class="fa-solid fa-3x fa-forward-step"></i>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/2092280fd7.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
